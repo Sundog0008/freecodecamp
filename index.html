@@ -29,7 +29,19 @@
                 <li>Home</li>
             </ol>
 
-            <form action="/submit-cat-photo"><input type="text" placeholder="Cat photo URL"><button type="submit">Submit</button></form>
+            <form action="/submit-cat-photo">
+                <input type="text" placeholder="Cat photo URL" required>
+                
+                <button type="submit">Submit</button>
+                
+                <label for="indoor">
+                    <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+                </label>
+              
+                <label for="outdoor">
+                    <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+                </label>
+            </form>
             
             </main>
             <footer id="footer">Copyright Photo App</footer>
