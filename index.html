@@ -5,9 +5,9 @@
         </head>
 
         <body>
-            <!--
+            
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-            -->
+            
 
             <style>
                 .red-text {
@@ -22,6 +22,11 @@
 
                 .smaller-image {
                     width: 100px;
+                    border-radius: 50%;
+                }
+
+                .silver-background {
+                    background-color: silver;
                 }
 
                 h2 {
@@ -46,7 +51,7 @@
 
             <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Temporariamente indisponível" class="smaller-image thick-green-border"></a>
             
-            <div>
+            <div class="silver-background">
             <p>Things cats love:</p>
             <ul>
                 <li>Milk</li>
@@ -62,7 +67,7 @@
             </ol>
             </div>
 
-            <form action="/submit-cat-photo">
+            <form id="cat-photo-form" action="/submit-cat-photo">
                 <input type="text" placeholder="Cat photo URL" required>
                 
                 <button type="submit">Submit</button>
