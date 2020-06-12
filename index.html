@@ -5,16 +5,27 @@
         </head>
 
         <body>
-
+            <!--
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
+            -->
 
             <style>
-                .red-text{
+                .red-text {
                   color: red;
                 }
+
+                .thick-green-border {
+                    border-width: 10px;
+                    border-style: solid;
+                    border-color: green;
+                }
+
+                .smaller-image {
+                    width: 100px;
+                }
+
                 h2 {
-                    font-family: lobster;
+                    font-family: lobster, monospace;
                 }
 
                 p {
@@ -25,7 +36,7 @@
 
             <h1>Olá Mundo</h1>
 
-            <h2>CatPhotoApp</h2>
+            <h2 class="red-text">CatPhotoApp</h2>
 
             <main>
             <p class="red-text">View more <a href="#">cat photos.</a></p>
@@ -33,7 +44,7 @@
             <a href="#footer">Jump to Bottom</a>
             <br>
 
-            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Temporariamente indisponível"></a>
+            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Temporariamente indisponível" class="smaller-image thick-green-border"></a>
             
             <div>
             <p>Things cats love:</p>
